@@ -1,6 +1,6 @@
 # Remodex — Data Protection Notice
 
-**Last updated:** March 25, 2026
+**Last updated:** October 19, 2026
 
 This Data Protection Notice explains how the Remodex mobile application ("App"), developed by Emanuele Di Pietro ("Developer", "we", "us", or "our"), handles your information. Remodex is designed to let you control a Codex runtime on your Mac from your iPhone. Most conversation and workspace activity is processed on your paired Mac, but the App Store version can also use developer-operated relay infrastructure to connect your devices.
 
@@ -84,7 +84,7 @@ Once the secure session is active, the hosted relay does **not** decrypt your Re
 
 When you use voice mode, your audio recording is sent to OpenAI/ChatGPT for speech-to-text transcription.
 
-This is the only instance where your data is processed by a third-party AI service.
+The coding runtime on your Mac also sends the prompts, attachments, and other context needed for your coding requests to the model provider configured in that runtime. Remodex's encrypted phone-to-Mac transport does not prevent that provider processing. The runtime and provider settings govern those requests.
 
 - Privacy policy: [openai.com/privacy](https://openai.com/privacy)
 
